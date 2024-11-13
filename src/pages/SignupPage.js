@@ -22,7 +22,6 @@ const SignupPage = () => {
       console.error("Error:", error);
     }
   };
-
   return (
     <form onSubmit={handleSubmit}>
       <h2>Sign Up</h2>
