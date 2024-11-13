@@ -1,4 +1,5 @@
 import React from 'react';
+import './Task.css';
 
 const Task = ({ task, onUpdateStatus, onDelete }) => {
   const handleStatusChange = (e) => {

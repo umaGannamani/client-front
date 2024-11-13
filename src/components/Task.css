@@ -1,0 +1,40 @@
+.task {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task h3 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .task p {
+    font-size: 0.95em;
+    color: #555;
+  }
+  
+  .task .task-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task select {
+    width: auto;
+  }
+  
+  .task button {
+    background-color: #e74c3c;
+  }
+  
+  .task button:hover {
+    background-color: #c0392b;
+  }
+  
